@@ -1,0 +1,40 @@
+p {
+    color: purple;
+}
+h1 {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: yellowgreen;
+    font-style: italic;
+}
+h4, h6 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    background-color: pink;
+}
+.subtitle {
+    text-decoration: dotted;
+    background-color: brown;
+    color: wheat;
+}
+.information_class {
+    color: purple;
+    text-decoration: underline;
+}
+#staffTable {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    border-collapse: collapse;
+}
+#staffTable th, #staffTable td {
+    border: 1px solid grey;
+    padding: 8px;
+}
+#staffTable th {
+    color: #fff;
+    background-color: yellowgreen;
+}
