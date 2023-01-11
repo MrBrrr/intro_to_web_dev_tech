@@ -46,31 +46,43 @@
               </div>
             </div>
           </nav>
+          <br>
         <div id="container" class="container">
-            <div id="content">
-                <h1 id="title">Contact Us</h1>
-                <form action="success.html">
-                    <label for="fname">Full Name</label><br/>
-                    <input type="text" class="form-control" id="fname" name="fname">
-                    <br/>
-                    <br/>
-        
-                    <label for="email">Email address</label><br/>
-                    <input type="email"class="form-control" id="email" name="email">
-                    <br/>
-                    <br/>
-        
-                    <label for="query">Query</label><br/>
-                    <textarea id="query" class="form-control" name="query"></textarea>
-                    <br/>
-                    <br/>
-        
-                    <div class="d-grid gap-2">
-                        <input type="submit" class="btn btn-success" value="Submit My Query" onclick="ButtonClicked()">
-                    </div>
-                </form>
+          <form class="row g-3"  action="success.html">
+            <div class="col-md-6">
+              <label for="inputFirstName4" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="inputFirstName4">
             </div>
-        </div>
+            <div class="col-md-6">
+              <label for="inputLastName4" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="inputLastName4">
+            </div>
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12">
+              <label for="inputQuery" class="form-label">Your Query</label>
+              <textarea class="form-control" id="inputQuery"></textarea>
+            </div>          
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <input type="submit" class="btn btn-success" value="Submit My Query" onclick="ButtonClicked()">
+            </div>
+          </form>
+            <hr>
+          </div>
+        <footer class="container">
+          <p>&copy; My Website 2022</p>
+        </footer>
         <script src="js/script.js"></script>
     </body>
 </html>
